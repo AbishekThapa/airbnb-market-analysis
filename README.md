@@ -35,30 +35,36 @@ Below is a summary of the most critical insights. For the complete, detailed ana
 11. **Geospatial Distribution**: How are listings, prices, and room types distributed across the city?
 
 ## 4. Project Structure
-dir/Airbnb Analysis/
-├── README.md # Project documentation and analysis findings
-├── FINDINGS.md # In-depth analysis report with visualizations
-├── requirements.txt # Python dependencies
-├── config_template.py # Database configuration template
-├── .gitignore # Git ignore file for sensitive data
-├── run_etl_pipeline.py # Main ETL pipeline script
-├── airbnb-analysis.ipynb # Jupyter notebook with comprehensive analysis
-├── airbnb_listings_map.html # Interactive geospatial visualization
-└── dataset/ # Directory for raw data files
-code
-Code
+
+<pre>
+.
+├── README.md                # Project documentation and summary of findings
+├── FINDINGS.md              # Full analysis report with visualizations
+├── requirements.txt         # Python dependencies
+├── config_template.py       # Template for database configuration (copy and rename to config.py)
+├── .gitignore               # Specifies files/folders to ignore in version control
+├── run_etl_pipeline.py      # Main script to run the ETL pipeline
+├── airbnb-analysis.ipynb    # Jupyter notebook with all analysis and answers to business questions
+├── airbnb_listings_map.html # Interactive map visualizing Airbnb listings
+├── Power-BI-Dashboard/      # Power BI dashboard files (work in progress)
+├── dataset/                 # Folder containing raw and processed data files
+└── screenshot/              # Folder containing screenshots and images used in documentation
+</pre>
+
 ### File Descriptions
 
-| File/Directory | Purpose |
-|---|---|
-| `README.md` | Main project documentation, setup guide, and summary of findings |
-| `FINDINGS.md`| The complete, detailed analytical report with all charts and strategic takeaways |
-| `requirements.txt` | List of Python packages required to run the project |
-| `config_template.py` | Database configuration template (copy to `config.py` and fill in) |
-| `run_etl_pipeline.py` | Complete ETL pipeline for data extraction, cleaning, and loading |
-| `airbnb-analysis.ipynb` | Main analysis notebook answering all 11 business questions |
-| `airbnb_listings_map.html` | Interactive Folium map of listing distribution |
-| `dataset/` | Directory containing all raw and processed data files |
+| File/Directory              | Purpose                                                                 |
+|-----------------------------|-------------------------------------------------------------------------|
+| `README.md`                 | Main project documentation, setup guide, and summary of findings        |
+| `FINDINGS.md`               | The complete, detailed analytical report with all charts and strategic takeaways |
+| `requirements.txt`          | List of Python packages required to run the project                     |
+| `config_template.py`        | Database configuration template (copy to `config.py` and fill in)       |
+| `run_etl_pipeline.py`       | Complete ETL pipeline for data extraction, cleaning, and loading        |
+| `airbnb-analysis.ipynb`     | Main analysis notebook answering all 11 business questions              |
+| `airbnb_listings_map.html`  | Interactive Folium map of listing distribution                          |
+| `Power-BI-Dashboard/`       | Power BI dashboard files (work in progress, updating soon)              |
+| `dataset/`                  | Directory containing all raw and processed data files                   |
+| `screenshots/`              | Folder containing screenshots and images used in documentation          |
 
 
 ## 5. Tools and Libraries Used
