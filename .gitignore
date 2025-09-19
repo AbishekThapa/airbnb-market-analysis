@@ -72,5 +72,6 @@ dataset/
 
 # Power BI files (work in progress dashboard)
 powerbi/
+Power-BI-Dashboard/
 *.pbix
 *.pbit
