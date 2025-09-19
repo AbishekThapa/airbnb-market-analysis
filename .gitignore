@@ -65,7 +65,6 @@ dataset/
 *.csv
 *.csv.gz
 *.geojson
-airbnb_listings_map.html
 
 # Temporary files
 *.tmp
