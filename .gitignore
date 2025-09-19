@@ -69,3 +69,8 @@ dataset/
 # Temporary files
 *.tmp
 *.temp
+
+# Power BI files (work in progress dashboard)
+powerbi/
+*.pbix
+*.pbit
