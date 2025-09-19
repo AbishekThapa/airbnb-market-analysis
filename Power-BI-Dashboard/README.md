@@ -8,5 +8,7 @@ This folder contains the Airbnb Market Analysis Power BI dashboard files.
 ## Status
 🚧 **Work in Progress** - Dashboard is currently under development
 
+📢 **Note:** The dashboard files will be made public once development is completed.
+
 ## Usage
 Open the `.pbix` file in Power BI Desktop to view and edit the dashboard.
